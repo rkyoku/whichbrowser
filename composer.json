@@ -1,5 +1,5 @@
 {
-    "name": "whichbrowser/parser",
+    "name": "rkyoku/whichbrowser",
 
     "description": "Useragent sniffing library for PHP",
     "keywords": ["useragent","browser","sniffing", "ua"],
