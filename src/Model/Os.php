@@ -16,6 +16,8 @@ class Os extends NameVersion
 
     /** @var boolean */
     public $hidden = false;
+    
+    public mixed $build = null;
 
 
     /**
