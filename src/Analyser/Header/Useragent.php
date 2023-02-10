@@ -5,6 +5,9 @@ namespace WhichBrowser\Analyser\Header;
 class Useragent
 {
     use Useragent\Os, Useragent\Device, Useragent\Browser, Useragent\Application, Useragent\Using, Useragent\Engine, Useragent\Bot;
+    
+    public mixed $data = null;
+    public mixed $options = null;
 
     public function __construct($header, &$data, &$options)
     {
